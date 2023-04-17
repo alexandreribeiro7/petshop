@@ -6,14 +6,14 @@ import { Pet } from './pet.model';
 /* eslint-disable prettier/prettier */
 export class Customer {
   constructor(
-    public name: string,
-    public document: string,
+    public nome: string,
+    public cpf: string,
     public email: string,
     public pets: Pet[],
-    public billingAddress: Address,
-    public shippingAddress: Address,
+    public endereço: Address,
+    public endcobrança: Address,
     public CreditCard: CreditCard,
     public password: string,
-    public active: boolean,
+    public status: boolean,
   ) {}
 }

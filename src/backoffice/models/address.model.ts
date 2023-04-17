@@ -1,13 +1,13 @@
 /* eslint-disable prettier/prettier */
 export class Address {
   constructor(
-    public zipCode: string,
-    public street: string,
-    public number: string,
-    public complement: string,
-    public neugborhood: string,
-    public city: string,
-    public state: string,
-    public country: string,
+    public cep: string,
+    public rua: string,
+    public número: string,
+    public complemento: string,
+    public bairro: string,
+    public cidade: string,
+    public estado: string,
+    public origem: string,
   ) {}
 }
